@@ -3,13 +3,13 @@
   .section-two ul {
     margin: auto;
     width: 93%;
-  } 
+  }
   .sp_mainvisual-img {
     display: none;
   }
 }
 /* スマホ向け */
-@media screen and (max-width: 420px) { 
+@media screen and (max-width: 420px) {
   .mainvisual-img {
     display: none;
   }
@@ -20,7 +20,7 @@
   .about {
     margin-right: 0;
   }
-  
+
   .sp_mainvisual-img {
     width: 100%;
     height: calc(100vh - 60px);
@@ -56,6 +56,6 @@
   .footer {
     width: 100%;
     text-align: center;
-    bottom: 0; 
+    bottom: 0;
   }
-} 
+}
