@@ -1,0 +1,127 @@
+body{
+  font-family:"Meiryo";
+  color: #383e45;
+  font-size: 0.9rem;
+  }
+
+.header {
+  justify-content: space-between;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 4%;
+  max-width: 829px;
+}
+.ul {
+  display: flex;
+  padding: 10px 0;
+}
+
+.ul li {
+  margin-left: 30px;
+}
+
+  .site-title {
+    width: 120px;
+    height: 40px;
+    padding: 10px 0;
+
+  }
+
+  .logo-img {
+    max-width: 100%;
+  }
+
+  .section-two li {
+    list-style: none;
+    width: 32%;
+  }
+
+  li a {
+    color: #24292e;
+    text-decoration: none;
+  }
+
+  .mainvisual {
+    margin-bottom: 80px;
+  }
+
+  .mainvisual-img {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 108px;
+}
+
+.about {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.section-one {
+    max-width: 756px;
+    height: 217px;
+    margin: 0 auto 100px auto;
+    text-align: center;
+    padding: 0 4%;
+}
+
+.section-two {
+  max-width: 844px;
+  height: 361px;
+  margin: 0 auto 100px auto;
+  text-align: center;
+}
+
+.section-two  ul{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 231px;
+}
+
+
+.section-title {
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #383e45;
+    font-weight: bold;
+    height: 40px;
+}
+
+.text {
+  text-align: left;
+}
+
+.content-title {
+    font-size: 1rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.text p {
+  line-height: normal;
+}
+
+li img {
+  max-width: 100%;
+}
+
+.footer p{
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+  height: 15px;
+}

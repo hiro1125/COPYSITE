@@ -1,0 +1,61 @@
+/* タブレット向け */
+@media screen and (min-width: 767.9px) {
+  .section-two ul {
+    margin: auto;
+    width: 93%;
+  } 
+  .sp_mainvisual-img {
+    display: none;
+  }
+}
+/* スマホ向け */
+@media screen and (max-width: 420px) { 
+  .mainvisual-img {
+    display: none;
+  }
+
+  .content {
+    display: block;
+}
+  .about {
+    margin-right: 0;
+  }
+  
+  .sp_mainvisual-img {
+    width: 100%;
+    height: calc(100vh - 60px);
+    object-fit: cover;
+  }
+
+  .section-one {
+    height: 381px;
+  }
+
+  .section-two {
+    padding: 0 4%;
+    height: 1099px;
+  }
+
+  .section-two ul {
+    flex-direction: column;
+  }
+
+  .section-two li {
+    width: auto;
+    margin-bottom: 30px;
+  }
+
+  .section-two h3 {
+    height: 24px;
+  }
+
+  .section-two p {
+    height: 21px;
+  }
+
+  .footer {
+    width: 100%;
+    text-align: center;
+    bottom: 0; 
+  }
+} 
